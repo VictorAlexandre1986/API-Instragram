@@ -6,8 +6,13 @@
 <ul>
     <li>Python</li>
     <li>SQLAlchemy</li>
-    <li>Marshmallow</li>
+    <li>Pydantic</li>
     <li>FastAPI</li>
+    <li>AIOFiles</li>
+    <li>Passlib</li>
+    <li>Uvicorn</li>
+    <li>Python multi-part</li>
+    <li>Bcrypt</li>
 </ul>
 
 Para instalar as dependencias entre na pasta do projeto e digite no terminal do vscode :
