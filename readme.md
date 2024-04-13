@@ -31,7 +31,7 @@ pip install -r requirements.txt
 Para rodar o projeto utilize o comando:
 
 ```
-uvicorn main>app --host 127.0.0.1 --port 8080
+uvicorn main:app --host 127.0.0.1 --port 8080
 ```
 
 Para acessar o swagger digite no navegador:
