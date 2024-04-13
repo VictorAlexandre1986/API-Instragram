@@ -19,9 +19,11 @@ Para instalar as dependencias entre na pasta do projeto e digite no terminal do 
 ```
 python -m venv venv
 ```
-````
+
+```
 .\venv\Scripts\activate
 ```
+
 ```
 pip install -r requirements.txt
 ```
