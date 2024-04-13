@@ -18,12 +18,13 @@ def root():
     return "Hello World"
 
 origins = [
-    "http://localhost:3000"
+    "http://localhost:3000",
+    "http://localhost:3001",
 ]
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
+    allow_origins=["*"],# allow_origins=origins, para limitar o acesso a localhost 3000 e 300
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
